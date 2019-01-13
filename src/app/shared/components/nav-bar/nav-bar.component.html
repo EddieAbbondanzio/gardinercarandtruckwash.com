@@ -1,0 +1,41 @@
+<div class="row my-3">
+  <div class="col-md-5 offset-md-1">
+    <a class="text-dark" href="/">
+      <h1 class="font-weight-bold d-inline-block my-2">Gardiner Car And <br /> Truck Wash LLC</h1>
+      <img class="logo mx-auto d-inline-block" style="position: absolute; top: 0px;" src="assets/imgs/car-logo-trans.png" />
+    </a>
+  </div>
+  <div class="col-md-5">
+    <div class="position-absolute" style="bottom: 0px; right: 0px">
+      <h3>
+        Call Us At:
+        <small class="text-muted">(207)-242-2474</small>
+      </h3>
+
+      <h4>
+        396 Brunswick Ave<br />
+        Gardiner, Maine 04345
+      </h4>
+    </div>
+  </div>
+</div>
+
+<div class="row" style="margin-left: -30px; margin-right: -30px;">
+  <div class="col-12">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e3681c;">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="d-flex d-block flex-row mx-auto">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav w-100 text-centered">
+            <ng-container *ngFor="let l of links">
+              <a class="nav-item nav-link" [ngClass]="isActive(l.route)" href="{{l.route}}">{{ l.name }}</a>
+            </ng-container>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>

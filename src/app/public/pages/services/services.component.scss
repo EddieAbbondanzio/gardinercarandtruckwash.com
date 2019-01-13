@@ -1,0 +1,19 @@
+
+.dark-bar:after {
+    width: 80px;
+    height: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: black;
+    content: '';
+    display: block;
+}
+
+.bg-light-blue {
+    background-color: #f0f3f5 !important;
+}
+
+.material-icons {
+    font-size: 28px;
+}
