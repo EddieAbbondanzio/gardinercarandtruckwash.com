@@ -14,7 +14,6 @@ export class NavBarComponent implements OnInit {
     { name: 'Home', route: '/' },
     { name: 'Services', route: '/services' },
     { name: 'About Us', route: '/about-us' },
-    { name: 'Community', route: '/community' },
     { name: 'Location', route: '/location' },
     { name: 'Contact Us', route: '/contact-us' },
   ]
