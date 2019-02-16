@@ -6,13 +6,11 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { LocationComponent } from './pages/location/location.component';
 import { ServicesComponent } from './pages/services/services.component';
-import { CommunityComponent } from './pages/community/community.component';
 
 const routes: Routes = [
   {path: '', component: HomeComponent },
   {path: 'about-us', component: AboutUsComponent },
   {path: 'contact-us', component: ContactUsComponent },
-  {path: 'community', component: CommunityComponent },
   {path: 'location', component: LocationComponent },
   {path: 'services', component: ServicesComponent }
 ];

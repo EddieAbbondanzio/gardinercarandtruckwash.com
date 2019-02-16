@@ -1,7 +1,7 @@
 <div class="row py-5 text-light" style="background-color: #3d444a !important;">
   <div class="col-lg-6 col-12 text-center">
     <!-- Hours of Operation -->
-    <div class="mb-4" style="height: 64px;">
+    <div class="mb-2 mb-lg-4 mt-4 mt-lg-0" style="height: 64px;">
       <div class="d-inline-block mr-3">
         <i class="material-icons jumbo-icon text-light">access_time</i>
       </div>
@@ -9,16 +9,17 @@
       <h2 class="d-inline m-0 align-text-bottom" style="height: 64px; line-height: 64px;">Hours</h2>
     </div>
 
-    <span style="font-size: 1.25em;">Open 24 hours a day, 7 days a week</span>
+    <h4 style="font-size: 1.25em;">Open 24 hours a day 7 days a week*</h4>
 
-    <p class="text-muted" style="font-size: 0.85em;">
-      ** During winter, when temperatures drop below 15F we will be closed for the safety of our customers, and
+
+    <span class="text-muted d-inline-block" style="font-size: 0.85em; max-width: 480px;">
+      * During winter, when temperatures drop below 18F we will be closed for the safety of our customers and
       equipment.
-    </p>
+    </span>
   </div>
 
   <div class="col-lg-6 col-12 text-center">
-    <div class="mb-4" style="height: 64px;">
+    <div class="mb-2 mb-lg-4 mt-4 mt-lg-0" style="height: 64px;">
       <div class="d-inline-block mr-3">
         <i class="material-icons jumbo-icon text-light">map</i>
       </div>
@@ -39,14 +40,14 @@
 
 <div class="row text-light pb-5" style="background-color: #3d444a !important;">
   <div class="col-12">
-    <div class="text-center" style="height: 32px; line-height: 32px;">
-      <div class="d-inline-block mr-2">
+    <div class="text-center">
+      <h4 class="d-inline-block mr-1 my-0">
         <i class="material-icons medium-icon text-light">copyright</i>
-      </div>
+        <span style="vertical-align: super;">{{ getCurrentDate() }}</span>
+      </h4>
 
-      <h4 class="d-inline-block my-0 align-text-bottom" style="height: 32px;">
-        {{ getCurrentDate() }}
-        - Gardiner Car And Truck Wash LLC
+      <h4 class="d-inline-block ml-1 my-0" style="vertical-align: super;">
+        Gardiner Car And Truck Wash LLC
       </h4>
     </div>
   </div>
