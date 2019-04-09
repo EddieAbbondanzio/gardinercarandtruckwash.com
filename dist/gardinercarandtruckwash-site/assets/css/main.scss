@@ -1,7 +1,12 @@
 $corner-radius: 8px;
 
+html {
+    height: 100%;
+}
+
 body {
     overflow-x: hidden;
+    min-height: 100%;
 }
 
 .small-icon {
