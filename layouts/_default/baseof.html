@@ -23,9 +23,11 @@
 	</head>
 
 	<body>
-		{{ partial "header" . }}
-		{{ block "main" . }}{{ end }}
-		{{ partial "footer" . }}
+		<div class="container-fluid full-height">
+			{{ partial "header" . }}
+			{{ block "main" . }}{{ end }}
+			{{ partial "footer" . }}
+		</div>
 	</body>
 
 </html>

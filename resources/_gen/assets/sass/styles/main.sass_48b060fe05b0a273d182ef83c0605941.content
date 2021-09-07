@@ -1,1 +1,1 @@
-html{height:100%}body{overflow-x:hidden;min-height:100%}.small-icon{font-size:16px}.medium-icon{font-size:32px}.large-icon{font-size:48px}.jumbo-icon{font-size:64px}
+.logo{height:120px}.nav-item{margin:0 24px;font-size:1.25em}html{height:100%;font-family:crimson text,Georgia,serif!important}body{overflow-x:hidden;min-height:100%}.small-icon{font-size:16px}.medium-icon{font-size:32px}.large-icon{font-size:48px}.jumbo-icon{font-size:64px}*{font-family:crimson text,Georgia,serif!important}
