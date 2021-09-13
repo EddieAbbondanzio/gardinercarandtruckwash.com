@@ -32,10 +32,10 @@
 						<div class="navbar-nav w-100 text-centered">
 							{{ $current := . }}
 							{{ range .Site.Menus.main }}
-							{{ $active := eq .URL $current.URL }}
-							<a href="{{ .URL }}"
-								class="nav-item nav-link {{ if $active }}active{{ end }}">{{ .Name }}</a>
-
+							{{ $active := eq .URL $current.RelPermalink }}
+							<a href="{{ .URL }}" class="nav-item nav-link {{ if $active }}active{{ end }}">
+								{{ .Name }}
+							</a>
 							{{ end }}
 						</div>
 					</div>
