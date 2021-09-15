@@ -1,6 +1,7 @@
 +++ 
 title = "About Us" 
 url = "/about-us"
+layout = "about-us"
 +++
 
 Gardiner Car & Truck Wash LLC is a locally owned and operated family business Conveniently located just 3.2 miles from I-295 Exit 49 (US-201 toward Gardiner). Our address is 396 Brunswick Ave (Route 202) in Gardiner, Maine. The car wash was built in 2010 and we purchased the business in January 2017. We have performed some great upgrades during our ownership and are continually working on expanding the car wash.

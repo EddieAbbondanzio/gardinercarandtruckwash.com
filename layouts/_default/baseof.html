@@ -11,6 +11,9 @@
 		{{ with .Site.Params.author }}
 		<meta name="author" content="{{ . }}">{{ end }}
 
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
 		{{/* Compile SCSS  */}}
 		{{ $styles := resources.Get "styles/main.sass" | toCSS | minify | fingerprint }}
 		<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" media="screen">
@@ -22,13 +25,18 @@
 			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
 		<link rel="icon" type="image/x-icon" href="/ico/favicon.ico">
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	</head>
 
 	<body>
 		<div class="container-fluid full-height">
 			{{ partial "header" . }}
-			{{ block "main" . }}{{ end }}
+
+			<div class="row py-5" style="font-size: 1.4em; ">
+				<div class="col-lg-10 offset-lg-1">
+					{{ block "main" . }}{{ end }}
+				</div>
+			</div>
+
 			{{ partial "footer" . }}
 		</div>
 	</body>

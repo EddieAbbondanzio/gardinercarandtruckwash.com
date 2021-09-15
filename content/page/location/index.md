@@ -1,6 +1,7 @@
 +++ 
 title = "Location" 
 url = "location"
+layout = "location"
 +++
 
 Gardiner Car And Truck Wash LLC
