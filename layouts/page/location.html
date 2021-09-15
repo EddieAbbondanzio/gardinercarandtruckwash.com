@@ -1,10 +1,19 @@
 {{ define "main" }}
-<main>
-    <article>
-        <h1>{{ .Title }}</h1>
-        <div>
-            {{ .Content }}
+<div class="row">
+    <div class="col-12">
+        <h1 class="dark-bar mb-5 text-center title-bar d-block pb-5">{{ .Title }}</h1>
+    </div>
+
+    <div class="col-12">
+        <div class="row">
+            <div class="col-md-6 col-lg-5 text-center p-5">
+                {{ .Content }}
+            </div>
+
+            <div class="col-md-6 col-lg-7">
+                <img src="{{ .Params.Image }}" style="width: 100%;" />
+            </div>
         </div>
-    </article>
-</main>
+    </div>
+</div>
 {{ end }}
