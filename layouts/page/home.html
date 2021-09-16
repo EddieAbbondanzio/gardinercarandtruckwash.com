@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="row">
+    <div class="col-12" style="margin-left: -15px; margin-right: -15px;">
+        <img src="{{ .Params.Hero }}" style="width: calc(100% + 30px);">
+    </div>
+</div>
+
+<div class="row p-5 bg-primary">
+    <div class="col-12 text-light text-center">
+        <h2 class="motto">
+            {{ .Params.Motto }}
+        </h2>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        {{ .Content }}
+    </div>
+</div>
+{{ end }}
