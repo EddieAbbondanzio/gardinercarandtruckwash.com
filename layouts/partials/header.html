@@ -1,4 +1,4 @@
-<header class="row py-3 text-center text-md-left">
+<div class="row py-3 text-center text-md-left">
 	<div class="col-md-6 col-xl-5 offset-xl-1">
 		<a class="text-dark text-decoration-none d-flex flex-row align-items-center" href="/">
 			<h1 class="fw-bold flex-grow-1">Gardiner Car And <br /> Truck Wash LLC</h1>
@@ -17,29 +17,31 @@
 			<h4 class="text-muted text-center"><a href="tel:207-242-2474">(207)-242-2474</a></h4>
 		</div>
 	</div>
-	</div>
+</div>
 
-	<div class="row" style="margin-left: -30px; margin-right: -30px;">
-		<div class="col-12">
-			<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e3681c;">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-					aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="d-flex d-block flex-row mx-auto">
-					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-						<div class="navbar-nav w-100 text-centered">
-							{{ $current := . }}
-							{{ range .Site.Menus.main }}
-							{{ $active := eq .URL $current.RelPermalink }}
-							<a href="{{ .URL }}" class="nav-item nav-link {{ if $active }}active{{ end }}">
-								{{ .Name }}
-							</a>
-							{{ end }}
-						</div>
+<div class="row">
+	<div class="col-12">
+		<nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="mx-auto">
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav w-100 text-centered">
+						{{ $current := . }}
+						{{ range .Site.Menus.main }}
+						{{ $active := eq .URL $current.RelPermalink }}
+						<a href="{{ .URL }}" class="nav-item nav-link {{ if $active }}active{{ end }}">
+							{{ .Name }}
+						</a>
+						{{ end }}
 					</div>
 				</div>
-			</nav>
-		</div>
+			</div>
+		</nav>
 	</div>
-</header>
+</div>
