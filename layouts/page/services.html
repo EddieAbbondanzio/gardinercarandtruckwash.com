@@ -1,10 +1,458 @@
 {{ define "main" }}
-<main>
-    <article>
-        <h1>{{ .Title }}</h1>
-        <div>
-            {{ .Content }}
+<div class="row py-5" style="font-size: 1.4em; ">
+    <div class="col-lg-10 offset-lg-1">
+        <h1 class="title-bar text-center mb-5">Touch Free Washes</h1>
+
+        <!-- Auto Bay Wash Chart -->
+        <div class="container">
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    &nbsp;
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2
+                            class="d-flex d-md-none upright-text mt-3 bg-primary mx-0 flex-grow-1 align-items-center pt-3 fs-5">
+                            Extreme</h2>
+                        <h2 class="d-none d-md-block text-center py-3 bg-primary w-100">Extreme</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2
+                            class="d-flex d-md-none upright-text mt-3 bg-primary mx-0 flex-grow-1 align-items-center pt-3 fs-5">
+                            Ultra</h2>
+                        <h2 class="d-none d-md-block text-center py-3 bg-primary w-100">Ultra</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2
+                            class="d-flex d-md-none upright-text mt-3 bg-primary mx-0 flex-grow-1 align-items-center pt-3 fs-5">
+                            Deluxe</h2>
+                        <h2 class="d-none d-md-block text-center py-3 bg-primary w-100">Deluxe</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2
+                            class="d-flex d-md-none upright-text mt-3 bg-primary mx-0 flex-grow-1 align-items-center pt-3 fs-5">
+                            Express</h2>
+                        <h2 class="d-none d-md-block text-center py-3 bg-primary w-100">Express</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Bumper Super Blaster</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Undercarriage Wash</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Rocker Panel Super Blaster</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Double Pass Hot Foaming Presoak</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Foaming Conditioner</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">High Pressure Wash</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Carnauba Wax</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Clear Coat Protectant</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><span>&nbsp;</span></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Spot Free Rinse</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Dry</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+                <div class="col-2">
+                    <div class="wash-feature-cell"><i class="material-icons text-success">check</i></div>
+                </div>
+            </div>
+
+            <div class="row g-2">
+                <div class="col-4 col-md-3">
+                    &nbsp;
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2 class="text-center py-3 bg-success w-100 fs-4">$20</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2 class="text-center py-3 bg-success w-100 fs-4">$16</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2 class="text-center py-3 bg-success w-100 fs-4">$23</h2>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2 class="text-center py-3 bg-success w-100 fs-4">$10</h2>
+                    </div>
+                </div>
+            </div>
         </div>
-    </article>
-</main>
+
+        <div class="container pt-5">
+            <div class="row g-2">
+                <div class="col-6 col-md-5">
+                    <div class="d-flex align-items-center justify-content-center text-white">
+                        <h2 class="d-none d-md-block text-center py-3 bg-primary w-100">Add-Ons</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Seasonal Prep Bug/Salt Remover</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell">$2</div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Carnauba Wax</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell">$3</div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Ceramic Wax</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell">$4</div>
+                </div>
+            </div>
+
+            <div class="row gx-2">
+                <div class="col-4 col-md-3">
+                    <div class="wash-feature-cell mb-2">
+                        <p class="mb-0 p-2">Bumper Super Blaster</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="wash-feature-cell">$2</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5">
+            <div class="col-12">
+                <h1 class="title-bar text-center mb-5">Self Serve Bays</h1>
+
+                <div class="row my-5">
+                    <div class="col-md-6 col-lg-4" style="min-height: 320px">
+                        <img src="/images/overview.png" style="width: 100%;" />
+                    </div>
+
+                    <div class="col-md-6 col-lg-8 mt-5 mt-md-0">
+                        <div class="d-flex align-items-center h-100">
+                            <p class="text-muted px-5" style="font-size: 1.2em; vertical-align: middle;">
+                                Each of our 4 self serve bays are equipped with a high pressure wash wand and
+                                foaming
+                                wash brush. For
+                                convenience all bays accept cash or credit cards.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row my-5">
+                    <div class="col-md-6 col-lg-8 mb-5 mb-md-0">
+                        <div class="d-flex flex-column h-100 justify-content-center">
+                            <p class="text-muted px-5" style="font-size: 1.2em; vertical-align: middle;">
+                                Our Self Serve Industrial Truck bay has a height clearance of 14 feet and can easily
+                                accommodate the
+                                largest of trucks, buses, campers and even 18 wheelers. Our large parking lot
+                                provides
+                                easy access for all
+                                trucks.
+                            </p>
+
+
+                            <div class="alert alert-info" style="font-size: 0.8em;">Truck Bay is self service for
+                                washing exterior of
+                                vehicles only. We do not offer Wash-Out Services.</div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" style="min-height: 320px;">
+                        <img src="/images/bus.png" style="width: 100%;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Dog Wash -->
+        <div class="row my-5 mx-lg-4">
+            <div class="col-12">
+                <h1 class="title-bar text-center mb-5">Self Serve Dog Wash</h1>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4" style="min-height: 320px">
+                        <img src="/images/dog-wash.jpg" style="width: 100%;" />
+                    </div>
+
+                    <div class="col-md-6 col-lg-8 mt-5 mt-md-0">
+                        <div class="d-table h-100">
+                            <div class="text-muted px-5 d-table-cell" style="font-size: 1.2em; vertical-align: middle;">
+                                <div class="alert alert-info" style="font-size: 0.8em;">Due to freezing temperatures
+                                    the
+                                    dog wash is only
+                                    available from May to
+                                    September.</div>
+
+                                <p class="pb-5">
+                                    Washing your dog can be challenging at home so we provide everything you need
+                                    with
+                                    our new do it
+                                    yourself dog wash station that accommodates all breeds and sizes. This is
+                                    available
+                                    to you 24 hours, 7
+                                    days a week and no appointment is necessary.
+                                </p>
+                                <p>
+                                    Our easy get in and out elevated dog wash station has a latched door, non-slip
+                                    mat
+                                    and tie-out to keep
+                                    your furry friend safely contained. Comfortable warm water, high quality all
+                                    natural
+                                    oatmeal shampoo,
+                                    flea and tick shampoo, skunk odor remover, conditioner and a high and low blow
+                                    dryer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row my-5 mx-lg-4">
+            <div class="col-12">
+                <h1 class="title-bar text-center mb-5">Vacuums</h1>
+
+                <div class="row">
+                    <div class="col-md-6 col-lg-4" style="min-height: 320px">
+                        <img src="/images/vacuums.png" style="width: 100%;" />
+                    </div>
+
+                    <div class="col-md-6 col-lg-8 mt-5 mt-md-0">
+                        <div class="d-table h-100">
+                            <p class="text-muted px-5 d-table-cell" style="font-size: 1.2em; vertical-align: middle;">
+                                High-powered self-service vacuums are located adjacent to the building. All vacuums
+                                accept credit cards, cash or coin
+                                operated and a change machine is available on site. They are a great value for those
+                                looking to clean the
+                                interior of their vehicle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 {{ end }}
